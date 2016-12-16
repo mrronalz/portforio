@@ -1,0 +1,39 @@
+@media only screen and (max-width:999px) {
+  .skill .circle { width: 50%; margin-top: 50px;}
+  .skill .titleline { margin-bottom: 10px; }
+
+  .work { padding: 100px 10px; }
+
+  .skill ,
+  .contact { padding: 100px 15px;}
+}
+
+@media only screen and (max-width:699px) {
+.work .groupwork a { width: 100%; }
+
+.contact .contactbox { width: 100%; margin-top: 15px; padding: 0; }
+.contact .contactbox:nth-child(1) { margin-top: 0; }
+}
+
+@media only screen and (max-width:599px) {
+.burgermenu { display: block; }
+.nav { height: 0; overflow: hidden;  width: 100%; transition: height 0.3s;  }
+.nav li:first-child { margin-top: 20px;  }
+.nav li { float: none; width: 100%;  margin: 0; }
+.nav a { padding: 15px; display: block; text-align: center; }
+.header.open {  background-color: #ffffff; } 
+.header.open a { color: #000000;  }
+.header.open .nav { height: 197px;  }
+.header.open .burgermenu .icon-E,
+.header.open .burgermenu .icon-X:before,
+.header.open .burgermenu .icon-X:after,
+.header.open .burgermenu .icon-X { background-color: #000000;  }
+
+.header.scroll .burgermenu .icon-E,
+.header.scroll .burgermenu .icon-E:before,
+.header.scroll .burgermenu .icon-E:after { background-color: #000000;  }
+}
+
+@media only screen and (max-width:499px) {
+.skill .circle { width: 100%; }
+}

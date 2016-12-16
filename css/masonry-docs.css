@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+.grid {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  /*width: 20%;*/
+}
+
+.grid-item img { width: 100%; border: 1px solid #f1f1f1; }
+
+.grid-item {
+  float: left;
+  width: 500px;
+  padding: 5px;
+}
