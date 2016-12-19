@@ -10,6 +10,8 @@ h1 , h2 , h3 , b , strong { font-weight: normal; }
 .nav a { text-decoration: none; color: #ffffff; cursor: pointer; }
 .logo { text-transform: uppercase; font-size: 24px; letter-spacing: 5px; font-weight: 700; }
 
+.contentpage .nav a { color: #000000;  }
+
 .contentpage .header { color: #000000; }
 
 .wrapper { max-width: 1000px; margin: 0 auto; overflow: hidden; }
