@@ -35,6 +35,12 @@ $('#aboutlink').click(function() {
     }, 500);
 });
 
+$('#contactlink').click(function() {
+    $('html, body').animate({
+        scrollTop: $('#contact').offset().top
+    }, 500);
+});
+
 $('.burgermenu').click (function(){
   $(this).toggleClass('open');
   $('.header').toggleClass('open');
