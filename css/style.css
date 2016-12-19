@@ -22,7 +22,7 @@ h1 , h2 , h3 , b , strong { font-weight: normal; }
 
 .about { background-color: #fafafa; padding: 100px 40px; overflow: hidden; }
 .about h2 { font-size: 40px; text-align: center; }
-.about img { height: 200px; position: absolute; left: -38px; opacity: 0; }
+.about img { height: 200px; position: absolute; left: -38px; }
 .about .aboutpic { width: 200px; height: 200px; border-radius: 50%; overflow: hidden; margin: 0 auto; display: block; position: relative; background-color: #ffffff; }
 .about p { max-width: 500px; margin: 0 auto; margin-top: 30px; font-family: 'Open Sans'; text-align: center; }
 
